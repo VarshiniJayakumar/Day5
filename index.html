@@ -1,0 +1,122 @@
+{
+    "name": "John Doe",
+    "title": "Full Stack Developer",
+    "contact": {
+      "email": "john.doe@example.com",
+      "phone": "(555) 123-4567",
+      "linkedin": "linkedin.com/in/johndoe",
+      "github": "github.com/johndoe"
+    },
+    "summary": "Passionate and dedicated Full Stack Developer with a strong background in web development. Excited about leveraging technical skills to create innovative solutions and contribute to the success of dynamic projects.",
+    "experience": [
+      {
+        "title": "Senior Full Stack Developer",
+        "company": "Tech Innovations Inc.",
+        "date": "July 2020 - Present",
+        "responsibilities": [
+          "Led a team in developing and maintaining complex web applications.",
+          "Designed and implemented RESTful APIs for seamless data communication.",
+          "Integrated third-party services and APIs to enhance application functionality.",
+          "Conducted code reviews and mentored junior developers."
+        ]
+      },
+      {
+        "title": "Frontend Developer",
+        "company": "Web Solutions Co.",
+        "date": "January 2018 - June 2020",
+        "responsibilities": [
+          "Developed responsive and user-friendly interfaces using HTML, CSS, and JavaScript.",
+          "Collaborated with UX/UI designers to implement design mockups.",
+          "Optimized website performance and ensured cross-browser compatibility."
+        ]
+      }
+      // Add more experience items as needed
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "school": "University of Technology",
+        "graduationDate": "May 2017"
+      }
+      // Add more education items as needed
+    ],
+    "skills": [
+      { "name": "HTML5", "level": 90 },
+      { "name": "CSS3", "level": 85 },
+      { "name": "JavaScript", "level": 85 },
+      { "name": "React.js", "level": 80 },
+      { "name": "Node.js", "level": 75 },
+      { "name": "Express.js", "level": 70 },
+      { "name": "MongoDB", "level": 70 },
+      { "name": "Git", "level": 80 }
+      // Add more skills with levels as needed
+    ],
+    "projects": [
+      {
+        "name": "E-commerce Platform",
+        "description": "Developed a scalable e-commerce platform with user authentication, product catalog, and checkout functionality.",
+        "technologies": ["React.js", "Node.js", "MongoDB"]
+      },
+      {
+        "name": "Task Management App",
+        "description": "Created a task management application with real-time collaboration features using React.js and Firebase.",
+        "technologies": ["React.js", "Firebase"]
+      }
+      // Add more project items as needed
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Developer - Associate",
+        "date": "August 2021"
+      },
+      {
+        "name": "Certified ScrumMaster (CSM)",
+        "date": "June 2019"
+      }
+      // Add more certification items as needed
+    ],
+    "languages": [
+      { "name": "English", "proficiency": "Fluent" },
+      { "name": "Spanish", "proficiency": "Intermediate" }
+      // Add more language items as needed
+    ]
+  }
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+        // Using 'for' loop
+for (let i = 0; i < resume.experience.length; i++) {
+  console.log(resume.experience[i].title);
+}
+
+// Using 'for-in' loop
+for (let key in resume.education) {
+  console.log(resume.education[key].degree);
+}
+
+// Using 'for-of' loop
+for (let skill of resume.skills) {
+  console.log(skill.name);
+}
+
+// Using 'forEach' loop on an array (e.g., projects)
+resume.projects.forEach(project => {
+  console.log(project.name);
+});
+
+// Using 'forEach' loop on an array (e.g., certifications)
+resume.certifications.forEach(certification => {
+  console.log(certification.name);
+});
+
+    </script>
+  </body>
+  </html>
+  
